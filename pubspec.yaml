@@ -7,11 +7,6 @@ homepage: https://camcode-59c70.web.app/
 flutter:
   plugin:
     platforms:
-      android:
-        package: com.example.camcode
-        pluginClass: CamcodePlugin
-      ios:
-        pluginClass: CamcodePlugin
       web:
         pluginClass: CamcodeWeb
         fileName: camcode_web.dart
